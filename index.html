@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the website of Judah Owens, a web developer and freelancer. Discover our web development services and skills. Contact us for exceptional web solutions.">
+    <title>Judah Owens - Web Developer and Freelancer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="logos.css">
+</head>
+<body>
+    <button id="toggleNavButton">☰</button>
+    <div class="nav-bar" id="navBar">
+        <button id="closeNavButton">X</button>
+        <a href="#banner" class="nav-item" onclick="closeNavBar()">Home</a>
+        <a href="#skills" class="nav-item" onclick="closeNavBar()">Services</a>
+        <a href="#contact" class="nav-item" onclick="closeNavBar()">Contact</a>
+    </div>
+
+    <div id="banner">
+        <h1>Judah Owens</h1>
+        <p>Freelance the web.</p>
+    </div>
+
+    <div class="article">
+        <div id="welcome">
+            <h2>Welcome to my website!</h2>
+            <figure id="headShot">
+                <img src="art/me.jpg" alt="really bad picture of me" style="width: 30vh;"/>
+                <figcaption>Me trying to hide the fact I hate having my picture taken</figcaption>
+            </figure>
+            <p>
+                Hello, I'm Judah Owens, a web developer with a passion for creating stunning websites. My goal is to assist you in crafting a visually appealing website, provide hosting solutions, and even offer server management services if you desire.
+            </p>
+        </div>
+
+        <div id="skills">
+            <h2>Skills</h2>
+            <p>
+                Whether it's a personal blog, a business site, or even an e-commerce venture, I'm all about crafting a tailored and polished solution that perfectly suits your needs.
+            </p>
+            <h3>Here are some of the tools I use:</h3>
+            <div class="logos">
+                <a href="https://www.python.org" class="icon-button" target="_blank">
+                    <img src="art/logos/python.svg" alt="Python">
+                    <span>Python</span>
+                </a>
+                
+                <a href="https://www.w3.org" class="icon-button" target="_blank">
+                    <img src="art/logos/html.svg" alt="HTML">
+                    <span>HTML</span>
+                </a>
+    
+                <a href="https://www.w3schools.com/css/" class="icon-button" target="_blank">
+                    <img src="art/logos/css.svg" alt="CSS">
+                    <span>CSS</span>
+                </a>
+    
+                <a href="https://www.w3schools.com/js/default.asp" class="icon-button" target="_blank">
+                    <img src="art/logos/java-script.svg" alt="JavaScript">
+                    <span>JavaScript</span>
+                </a>
+
+                <a href="https://www.react.dev" class="icon-button" target="_blank">
+                    <img src="art/logos/React.svg" alt="React">
+                    <span>React</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="WhatICanDo">
+            <h2>What Can I Do for You?</h2>
+            <p>I provide a few different services:</p>
+            <div class="expandable">
+                <div class="section-label" onclick="toggleContent(this)">
+                    <span>Create</span>
+                    <span class="arrow">&#9662;</span> <!-- Downward-pointing triangle Unicode character -->
+                </div>
+                <div class="section-content">
+                    <img src="art/hammer.svg" alt="hammer icon" style="float: right; height: 15vh;">
+                    <p>
+                        My primary focus is crafting websites tailored to your unique vision, ensuring they not only meet your design preferences but also excel in responsiveness and functionality.
+                    </p>
+                </div>
+            </div>
+            <div class="expandable">
+                <div class="section-label" onclick="toggleContent(this)">
+                    <span>Launch</span>
+                    <span class="arrow">&#9662;</span> <!-- Downward-pointing triangle Unicode character -->
+                </div>
+                <div class="section-content">
+                    <img src="art/rocket.svg" alt="rocket picture" style="float: right; height: 15vh;">
+                    <p>
+                        I can also assist with the website launch by providing guidance or by handling the entire process on your behalf.
+                    </p>
+                </div>
+            </div>
+            <div class="expandable">
+                <div class="section-label" onclick="toggleContent(this)">
+                    <span>Maintain</span>
+                    <span class="arrow">&#9662;</span> <!-- Downward-pointing triangle Unicode character -->
+                </div>
+                <div class="section-content">
+                    <img src="art/wrench.svg" alt="rocket picture" style="float: right; height: 15vh;">
+                    <p>
+                        I'm fully equipped to manage your websites and domain names. This entails keeping all the essential documentation and technical aspects current, allowing you to concentrate on what you do best. Rest assured, your online presence will be in capable hands.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                If you're eager to obtain an exceptional website, feel free to reach out to me. Let's connect and turn your web dreams into a reality!
+            </p>
+            <p style="padding-bottom: 15%;">Email: <a href="mailto:owensjudah7@gmail.com?subject=Hello%20World&body=This%20is%20the%20email%20body">Judah@Judah.com</a></p>
+        </div>
+    </div>
+
+    <script src="open_side_menu.js"></script>
+    <script src="open_content.js"></script>
+</body>
+</html>

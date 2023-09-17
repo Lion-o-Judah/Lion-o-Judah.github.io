@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.376125mm"
+   height="36.376125mm"
+   viewBox="0 0 36.376125 36.376125"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="java-script.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="false"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.4702383"
+     inkscape:cx="53.84096"
+     inkscape:cy="54.245779"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.793636,-18.619797)">
+    <rect
+       style="fill:#ffcc00;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:bevel"
+       id="rect956"
+       width="36.376125"
+       height="36.376125"
+       x="15.793636"
+       y="18.619797" />
+    <text
+       xml:space="preserve"
+       style="font-size:21.9193px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;stroke-width:1.36995"
+       x="24.391663"
+       y="53.130348"
+       id="text3116"><tspan
+         sodipodi:role="line"
+         id="tspan3114"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:FreeSans;-inkscape-font-specification:FreeSans;stroke-width:1.36995"
+         x="24.391663"
+         y="53.130348">JS</tspan></text>
+  </g>
+</svg>

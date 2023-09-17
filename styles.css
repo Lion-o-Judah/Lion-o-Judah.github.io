@@ -1,0 +1,224 @@
+:root {
+    --my_orange: rgb(197, 83, 38);
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Use the custom color variable */
+a {
+    color: var(--my_orange);
+}
+
+/* Banner styles */
+#banner {
+    background-image: url("art/banner.svg");
+    background-size: cover;
+    height: 200px; /* Adjust the height as needed */
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main header styles */
+#banner h1 {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Subheader styles */
+#banner p {
+    font-family: "Roboto", sans-serif;
+    font-size: 12pt;
+    margin: 0;
+}
+
+/* Pullout navigation bar styles */
+.nav-bar {
+    position: fixed;
+    left: -250px; /* Adjust the initial position as needed */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    transition: left 0.3s;
+    padding-top: 50px;
+    z-index: 10;
+}
+
+.nav-bar.open {
+    left: 0;
+}
+
+.nav-item {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-item:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Hamburger button styles */
+#toggleNavButton {
+    position: fixed;
+    background: none;
+    color: var(--my_orange);
+    border: none;
+    top: 10px;
+    z-index: 1;
+    left: 10px;
+    cursor: pointer;
+    font-size: 30pt;
+}
+
+#toggleNavButton:hover {
+    color: lightgray;
+}
+
+/* Close button styles */
+#closeNavButton {
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#closeNavButton:hover {
+    color: lightgray;
+}
+
+#headShot {
+    width: 30vh;
+    float: right;
+}
+
+/* Article content styles */
+.article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 70vh;
+}
+
+.article p {
+    line-height: 1.5;
+}
+
+#welcome {
+    padding-bottom: 40%;
+}
+
+#skills {
+    background-color: #333;
+    color: white;
+    padding: 5%;
+}
+
+#skills h3 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.article h2 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#contact {
+    color: white;
+    background-color: #333;
+    padding: 5%;
+}
+
+figcaption {
+    font-size: 10pt;
+    font-style: italic;
+}
+
+.logos {
+    padding-top: 2%;
+    text-align: center;
+}
+
+#WhatICanDo {
+    padding-bottom: 15%;
+    padding-top: 10%;
+}
+
+/* Expandable section styles */
+.expandable {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.section-label {
+    cursor: pointer;
+    background-color: var(--my_orange);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.section-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 10px;
+}
+
+.arrow {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.expandable.active .arrow {
+    transform: rotate(90deg);
+}
+
+/* Responsive design styles */
+@media screen and (max-width: 768px) {
+    #toggleNavButton {
+        font-size: 25pt;
+    }
+
+    #closeNavButton {
+        font-size: 20pt;
+    }
+
+    #headShot {
+        float: none;
+        width: 30vh;
+        margin: auto;
+        text-align: center;
+        display: block;
+        padding-bottom: 10%;
+    }
+
+    #WhatICanDo {
+        padding-top: 25%;
+    }
+}
